@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A.L.M.N.A</title>
+    <!-- Fuentes modernas tipo sans-serif para un look limpio y corporativo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="icon" type="image/png" href="./public/assets/ALMNA_logo.png">
+</head>
+
+<body>
+    <!-- Barra de Navegación -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <!-- Logo estilo marca -->
+            <div class="brand-logo">
+                <img src="./public/assets/ALMNA_logo.png" alt="A.L.M.N.A Logo" class="logo-image">
+                <span class="brand-text">A.L.M.N.A.</span>
+            </div>
+
+            <!-- Enlaces centrales (se ocultan en móvil y pasan a un menú hamburguesa) -->
+            <ul class="nav-links">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Divisiones</a></li>
+            </ul>
+
+            <!-- Iconos de usuario/búsqueda (simulados) -->
+            <div class="nav-icons">
+
+                <!-- Botón de menú móvil -->
+                <button class="icon-btn mobile-menu-btn">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Menú Móvil Desplegable -->
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Divisiones</a></li>
+        </ul>
+    </div>
+
+    <!-- Sección Hero (Banner Principal) -->
+    <header class="hero-section">
+        <!-- El fondo oscuro o imagen iría aquí -->
+        <div class="hero-bg"></div>
+
+        <div class="hero-content">
+            <span class="eyebrow">BIENVENIDO A</span>
+            <h1 class="hero-title">A.L.M.N.A</h1>
+            <div class="hero-subtitle">
+                <p>preparado para conocer tu nueva <span>facción</span>.</p>
+                <p>pongan a chabear al wizz </p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sección Sobre Nosotros / Divisiones -->
+    <section class="about-section" id="divisiones">
+        <div class="about-container">
+            <div class="about-header">
+                <span class="eyebrow">QUIÉNES SOMOS</span>
+                <h2 class="section-title">Sobre A.L.M.N.A</h2>
+                <p class="section-description">
+                    Somos una facción relativamente nueva, especializada en roleplay táctico, misiones de combate y
+                    patrullajes.
+                </p>
+            </div>
+
+            <div class="branches-container">
+                <div class="branch-card">
+                    <div class="branch-image">
+                        <img src="./public/assets/images/main/SEK_Card.png" alt="POLIZEI">
+                    </div>
+                    <h3 class="branch-title">POLIZEI</h3>
+                    <p class="branch-description">Nuestra rama enfocada en mantener el orden y la seguridad, realizando
+                        patrullajes regulares y control táctico de zonas estratégicas.</p>
+                </div>
+                <div class="branch-card">
+                    <div class="branch-image">
+                        <img src="./public/assets/images/main/KSK.png" alt="KSK">
+                    </div>
+                    <h3 class="branch-title">KSK</h3>
+                    <p class="branch-description">Fuerzas especiales de élite encargadas de operaciones tácticas
+                        complejas, rescates y misiones de combate de alto riesgo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Redes Sociales -->
+    <section class="social-section">
+        <div class="social-container">
+            <a href="https://discord.gg/cM7wNp9a" target="_blank" class="social-item">
+                <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                        d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515a.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0a12.64 12.64 0 0 0-.617-1.25a.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.666 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057a19.9 19.9 0 0 0 5.993 3.03a.078.078 0 0 0 .084-.028a14.09 14.09 0 0 0 1.226-1.994a.076.076 0 0 0-.041-.106a13.107 13.107 0 0 1-1.872-.892a.077.077 0 0 1-.008-.128a10.2 10.2 0 0 0 .372-.292a.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.196.373.292a.077.077 0 0 1-.006.127a12.299 12.299 0 0 1-1.873.892a.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028a19.839 19.839 0 0 0 6.002-3.03a.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.955-2.419 2.157-2.419c1.21 0 2.176 1.086 2.157 2.419c0 1.334-.956 2.419-2.157 2.419zm7.974 0c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.955-2.419 2.157-2.419c1.21 0 2.176 1.086 2.157 2.419c0 1.334-.946 2.419-2.157 2.419z" />
+                </svg>
+                <span>DISCORD</span>
+            </a>
+            <a href="https://www.tiktok.com/@division_alemana" target="_blank" class="social-item">
+                <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                        d="M12.53.02C13.84 0 15.14.01 16.44 0c.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z" />
+                </svg>
+                <span>TIK TOK</span>
+            </a>
+            <a href="https://youtube.com/@divisionalemanarx?si=QtGoSc9CTJgBrtCX" target="_blank" class="social-item">
+                <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                        d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                </svg>
+                <span>YOUTUBE</span>
+            </a>
+            <a href="https://www.instagram.com/division_alemana/" target="_blank" class="social-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
+                    class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path
+                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                </svg>
+                <span>INSTAGRAM</span>
+            </a>
+        </div>
+    </section>
+
+
+
+    <script src="./src/js/main.js"></script>
+</body>
+
+</html>
